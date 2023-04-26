@@ -50,7 +50,7 @@ class App extends Component {
     const accounts = await web3.eth.getAccounts()
     this.setState({ account: accounts[0] })
     this.setState({
-      tokenAddress: "0xa36085F69e2889c224210F603D836748e7dC0088",
+      tokenAddress: "0x326C977E6efc84E512bB9C30f76E30c160eD06FB",
     })
     this.setState({ image: chainlink })
     this.setState({ tokenName: "LINK" })
